@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+div {
+    margin: 10px;
+}
+
+table {
+    width: 70%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+tbody {
+    display: block;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0;
+}
+
+.style1 {
+    background-color: green;
+    text-align: right;
+    font-family: "Times New Roman", sans-serif;
+    border: 3px solid red;
+    border-collapse: separate;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.style1 th, .style1 td {
+    padding: 20px;
+    border-bottom: 2px dashed yellow;
+}
+
+.style1 tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+.style1 tr:nth-child(odd) {
+    background-color: #c8e6c9;
+}
+
+.style2 {
+    background-color: yellow;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    border: 10px solid blue;
+    border-collapse: inherit;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    color: navy;
+}
+
+.style2 th, .style2 td {
+    padding: 15px;
+    border-bottom: 2px dotted green;
+}
+
+.style2 tr:nth-child(even) {
+    background-color: #fff9c4;
+}
+
+.style2 tr:nth-child(odd) {
+    background-color: #fff59d;
+}
+
+.style3 {
+    background-color: red;
+    text-align: right;
+    font-family: "Gill Sans", sans-serif;
+    border: 20px solid green;
+    border-collapse: revert;
+    border-radius: 25px;
+    box-shadow: -5px -5px 25px rgba(0, 0, 0, 0.7);
+    color: yellow;
+}
+
+.style3 th, .style3 td {
+    padding: 10px;
+    border-bottom: 2px solid orange;
+}
+
+.style3 tr:nth-child(even) {
+    background-color: #ffcccb;
+}
+
+.style3 tr:nth-child(odd) {
+    background-color: #ef9a9a;
+}

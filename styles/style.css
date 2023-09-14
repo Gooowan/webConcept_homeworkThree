@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+}
+
+nav li{
+    font-family: 'Acme', sans-serif;
+    padding: 20px;
+    display: inline;
+}
+
+.move-left {
+    margin-left: 12%;
+}
+
+.active {
+    color: #007bff;
+}
+.hovered-button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+nav li:hover {
+    background-color: #007bff;
+    color: white;
+
+}
+
+.nicediv1{
+    display: flex;
+    align-items: center;
+    width: 96.25%;
+    margin-left: 1.8625%;
+    margin-right: 1.8625%;
+    height: 500px;
+    background-color: #007bff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.middletextdiv{
+    width: 40%;
+    color: #FFFFFF;
+    padding: 80px;
+    margin-left: 5%;
+}
+
+.middletextdiv h1{
+    font-family: 'Almarai', sans-serif;
+    font-size: 48px;
+}
+
+.middletextdiv p{
+    font-family: 'Almendra', sans-serif;
+    margin-top: 10px ;
+}
+
+.image1{
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 15%;
+}
+
+
+.nicediv2{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 400px;
+}
+
+.middletextdiv1{
+    width: 40%;
+    color: #111111;
+    padding: 20px;
+    margin-left: 9%;
+}
+
+.middletextdiv1 h1{
+    font-family: 'Almarai', sans-serif;
+    font-size: 48px;
+    margin-top: -60px;
+}
+
+
+.middletextdiv1 p{
+    font-family: 'Almarai', sans-serif;
+    margin-top: 10px ;
+}
+
+.hovered-button2 {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+.hovered-button2:active {
+    background-color: #007bff;
+    color: white;
+}
+
+.form-section {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.options label {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group.double {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.double input {
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
